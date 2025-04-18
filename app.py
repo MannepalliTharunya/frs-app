@@ -8,9 +8,7 @@ similarity_matrix = joblib.load("food_recommendation_model.pkl")
 # Full dish names list
 dishes = [
     'Chole Bhature', 'Vada Pav', 'Gulab Jamun', 'Pesarettu', 'Poha', 'Pav Bhaji',
-    'Chepala Pulusu', 'Kheer', 'Masala Dosa', 'Samosa', 'Biryani', 'Upma', 
-    'Jalebi', 'Rajma Chawal', 'Pesarattu Upma', 'Dhokla', 'Mysore Pak', 
-    'Palak Paneer', 'Khichdi', 'Rasgulla'
+    'Chepala Pulusu', 'Kheer', 'Masala Dosa', 'Samosa'
 ]
 
 # Streamlit App UI
